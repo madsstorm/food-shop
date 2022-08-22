@@ -3,21 +3,21 @@ resource "commercetools_product_type" "food" {
   description = "Food"
   key         = "food"
 
-  attribute {
-    name = "Allergens"
-    label = {
-      en = "Allergens"
-    }
-    required   = false
-    constraint = "None"
-    searchable = true
-    type {
-      name = "set"
-      element_type {
-        name = "ltext"
-      }
-    }
-  }
+#   attribute {
+#     name = "Allergens"
+#     label = {
+#       en = "Allergens"
+#     }
+#     required   = false
+#     constraint = "SameForAll"
+#     searchable = true
+#     type {
+#       name = "set"
+#       element_type {
+#         name = "ltext"
+#       }
+#     }
+#   }
 }
 
 resource "commercetools_product_type" "ingredient" {
@@ -25,19 +25,19 @@ resource "commercetools_product_type" "ingredient" {
   description = "Ingredient"
   key         = "ingredient"
 
-  attribute {
-    name = "Allergens"
-    label = {
-      en = "Allergens"
-    }
-    required   = false
-    constraint = "None"
-    searchable = true
-    type {
-      name = "set"
-      element_type {
-        name = "ltext"
-      }
-    }
-  }
+#   attribute {
+#     name = "Allergens"
+#     label = {
+#       en = "Allergens"
+#     }
+#     required   = false
+#     constraint = "SameForAll"
+#     searchable = true
+#     type {
+#       name = "set"
+#       element_type {
+#         name = "ltext"
+#       }
+#     }
+#   }
 }
