@@ -82,4 +82,17 @@ resource "commercetools_product_type" "food" {
       }
     }
   }
+
+  attribute {
+    name = "AllergenUrl"
+    label = {
+      en = "Allergen Url"
+    }
+    required   = false
+    constraint = "SameForAll"
+    searchable = true
+    type {
+      name = "text"
+    }
+  }
 }
