@@ -68,10 +68,6 @@ resource "commercetools_product_type" "food" {
           label = "Nuts"
         }
         value {
-          key = "mustard"
-          label = "Mustard"
-        }
-        value {
           key = "peanut"
           label = "Peanut"
         }
