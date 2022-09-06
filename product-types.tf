@@ -16,67 +16,67 @@ resource "commercetools_product_type" "food" {
       element_type {
         name = "enum"
         value {
-          key = "wheat"
+          key   = "wheat"
           label = "Wheat"
         }
         value {
-          key = "barley"
+          key   = "barley"
           label = "Barley"
         }
         value {
-          key = "oats"
+          key   = "oats"
           label = "Oats"
         }
         value {
-          key = "rye"
+          key   = "rye"
           label = "Rye"
         }
         value {
-          key = "crustaceans"
+          key   = "crustaceans"
           label = "Crustaceans"
         }
         value {
-          key = "celery"
+          key   = "celery"
           label = "Celery"
         }
         value {
-          key = "eggs"
+          key   = "eggs"
           label = "Eggs"
         }
         value {
-          key = "fish"
+          key   = "fish"
           label = "Fish"
         }
         value {
-          key = "lupin"
+          key   = "lupin"
           label = "Lupin"
         }
         value {
-          key = "milk"
+          key   = "milk"
           label = "Milk"
         }
         value {
-          key = "molluscs"
+          key   = "molluscs"
           label = "Molluscs"
         }
         value {
-          key = "mustard"
+          key   = "mustard"
           label = "Mustard"
         }
         value {
-          key = "nuts"
+          key   = "nuts"
           label = "Nuts"
         }
         value {
-          key = "peanut"
+          key   = "peanut"
           label = "Peanut"
         }
         value {
-          key = "sesame"
+          key   = "sesame"
           label = "Sesame"
         }
         value {
-          key = "soybean"
+          key   = "soybean"
           label = "Soybean"
         }
       }
@@ -93,6 +93,19 @@ resource "commercetools_product_type" "food" {
     searchable = true
     type {
       name = "text"
+    }
+  }
+
+  attribute {
+    name = "VariantName"
+    label = {
+      en = "Variant Name"
+    }
+    required   = false
+    constraint = "None"
+    searchable = true
+    type {
+      name = "ltext"
     }
   }
 }
