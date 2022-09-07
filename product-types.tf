@@ -18,67 +18,66 @@ resource "commercetools_product_type" "food" {
       name = "set"
       element_type {
         name = "enum"
-        values {
-          value {
-            key   = "wheat"
-            label = "Wheat"
-          }
-          value {
-            key   = "barley"
-            label = "Barley"
-          }
-          value {
-            key   = "rye"
-            label = "Rye"
-          }
-          value {
-            key   = "crustaceans"
-            label = "Crustaceans"
-          }
-          value {
-            key   = "celery"
-            label = "Celery"
-          }
-          value {
-            key   = "eggs"
-            label = "Eggs"
-          }
-          value {
-            key   = "fish"
-            label = "Fish"
-          }
-          value {
-            key   = "lupin"
-            label = "Lupin"
-          }
-          value {
-            key   = "milk"
-            label = "Milk"
-          }
-          value {
-            key   = "molluscs"
-            label = "Molluscs"
-          }
-          value {
-            key   = "mustard"
-            label = "Mustard"
-          }
-          value {
-            key   = "nuts"
-            label = "Nuts"
-          }
-          value {
-            key   = "peanut"
-            label = "Peanut"
-          }
-          value {
-            key   = "sesame"
-            label = "Sesame"
-          }
-          value {
-            key   = "soybean"
-            label = "Soybean"
-          }
+        value {
+          key   = "wheat"
+          label = "Wheat"
+        }
+        value {
+          key   = "barley"
+          label = "Barley"
+        }
+        value {
+          key   = "rye"
+          label = "Rye"
+        }
+        value {
+          key   = "crustaceans"
+          label = "Crustaceans"
+        }
+        value {
+          key   = "celery"
+          label = "Celery"
+        }
+        value {
+          key   = "eggs"
+          label = "Eggs"
+        }
+        value {
+          key   = "fish"
+          label = "Fish"
+        }
+        value {
+          key   = "lupin"
+          label = "Lupin"
+        }
+        value {
+          key   = "milk"
+          label = "Milk"
+        }
+        value {
+          key   = "molluscs"
+          label = "Molluscs"
+        }
+        value {
+          key   = "mustard"
+          label = "Mustard"
+        }
+        value {
+          key   = "nuts"
+          label = "Nuts"
+        }
+        value {
+          key   = "peanut"
+          label = "Peanut"
+        }
+        value {
+          key   = "sesame"
+          label = "Sesame"
+        }
+        value {
+          key   = "soybean"
+          label = "Soybean"
+        }
       }
     }
   }
