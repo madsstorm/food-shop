@@ -18,23 +18,23 @@ resource "commercetools_product_type" "food" {
       name = "set"
       element_type {
         name = "enum"
-         values = {
-            wheat = "Wheat"
-            barley = "Barley"
-            rye = "Rye"
-            crustaceans = "Crustaceans"
-            celery = "Celery"
-            eggs = "Eggs"
-            fish = "Fish"
-            lupin = "Lupin"
-            milk = "Milk"
-            molluscs = "Molluscs"
-            mustard = "Mustard"
-            nuts = "Nuts"
-            peanut = "Peanut"
-            sesame = "Sesame"
-            soybean = "Soybean"
-         }
+        values = {
+          wheat       = "Wheat"
+          barley      = "Barley"
+          rye         = "Rye"
+          crustaceans = "Crustaceans"
+          celery      = "Celery"
+          eggs        = "Eggs"
+          fish        = "Fish"
+          lupin       = "Lupin"
+          milk        = "Milk"
+          molluscs    = "Molluscs"
+          mustard     = "Mustard"
+          nuts        = "Nuts"
+          peanut      = "Peanut"
+          sesame      = "Sesame"
+          soybean     = "Soybean"
+        }
       }
     }
   }
