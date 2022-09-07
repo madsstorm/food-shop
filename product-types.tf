@@ -17,24 +17,68 @@ resource "commercetools_product_type" "food" {
     type {
       name = "set"
       element_type {
-        name = "Enum"
+        name = "enum"
         values {
-          wheat       = "Wheat"
-          barley      = "Barley"
-          rye         = "Rye"
-          crustaceans = "Crustaceans"
-          celery      = "Celery"
-          eggs        = "Eggs"
-          fish        = "Fish"
-          lupin       = "Lupin"
-          milk        = "Milk"
-          molluscs    = "Molluscs"
-          mustard     = "Mustard"
-          nuts        = "Nuts"
-          peanut      = "Peanut"
-          sesame      = "Sesame"
-          soybean     = "Soybean"
-        }
+          value {
+            key   = "wheat"
+            label = "Wheat"
+          }
+          value {
+            key   = "barley"
+            label = "Barley"
+          }
+          value {
+            key   = "rye"
+            label = "Rye"
+          }
+          value {
+            key   = "crustaceans"
+            label = "Crustaceans"
+          }
+          value {
+            key   = "celery"
+            label = "Celery"
+          }
+          value {
+            key   = "eggs"
+            label = "Eggs"
+          }
+          value {
+            key   = "fish"
+            label = "Fish"
+          }
+          value {
+            key   = "lupin"
+            label = "Lupin"
+          }
+          value {
+            key   = "milk"
+            label = "Milk"
+          }
+          value {
+            key   = "molluscs"
+            label = "Molluscs"
+          }
+          value {
+            key   = "mustard"
+            label = "Mustard"
+          }
+          value {
+            key   = "nuts"
+            label = "Nuts"
+          }
+          value {
+            key   = "peanut"
+            label = "Peanut"
+          }
+          value {
+            key   = "sesame"
+            label = "Sesame"
+          }
+          value {
+            key   = "soybean"
+            label = "Soybean"
+          }
       }
     }
   }
