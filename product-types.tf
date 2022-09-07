@@ -18,7 +18,7 @@ resource "commercetools_product_type" "food" {
       name = "set"
       element_type {
         name = "enum"
-        values = {
+        values {
           wheat       = "Wheat"
           barley      = "Barley"
           rye         = "Rye"
